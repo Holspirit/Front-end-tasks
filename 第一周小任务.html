@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+    <head>
+        <meta charset="UTF-8">
+        <title>表格</title>
+        <style>
+            table {
+                background-color: ghostwhite;
+            }
+            td.second {
+                color: rgb(244, 188, 46);
+            }
+            td.third {
+                color: gold;
+            }
+            td.fourth {
+                color: navy;
+            }
+            td.fifth {
+                color: red
+            }
+            td.sixth {
+                color: burlywood;
+            }
+            td.seventh {
+                color: yellowgreen;
+            }
+            td.eighth {
+                color: blue;
+            }
+            td.ninth {
+                color: skyblue;
+            } 
+        </style>
+    </head>
+    <body>
+        <table border="1" cellspacing="0">
+            <caption>表格</caption>
+            <thead>
+                <tr>
+                    <th colspan="2" width="100" height="100"></th>  
+                    <th>Name</th>
+                    <th>Mass(10^24kg)</th>
+                    <th>Diameter(km)</th>
+                    <th>Density(kg/m^3)</th>
+                    <th>Gravity(m/s^2)</th>
+                    <th>Length of day(hours)</th>
+                    <th>Distance from sun(10^6km)</th>
+                    <th>Mean temprature(℃)</th>
+                    <th>Number of satellite</th>
+                    <th width="100">Notes</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td rowspan="4" colspan="2" height="300">Terrestrial planets</td>
+                    <td class="second">Mercury</td>
+                    <td class="second">0.330</td>
+                    <td class="second">4,879</td>
+                    <td class="second">5427</td>
+                    <td class="second">3.7</td>
+                    <td class="second">4222.6</td>
+                    <td class="second">57.9</td>
+                    <td class="second">167</td>
+                    <td class="second">0</td>
+                    <td class="second">Closest to the Sun</td>
+                </tr>
+                <tr>
+                    <td class="third">Venus</td>
+                    <td class="third">4.87</td>
+                    <td class="third">12,104</td>
+                    <td class="third">5243</td>
+                    <td class="third">8.9</td>
+                    <td class="third">2802.0</td>
+                    <td class="third">108.2</td>
+                    <td class="third">464</td>
+                    <td class="third">0</td>
+                    <td class="third"></td>
+                </tr>
+                <tr>
+                    <td class="fourth">Earth</td>
+                    <td class="fourth">5.97</td>
+                    <td class="fourth">12,756</td>
+                    <td class="fourth">5514</td>
+                    <td class="fourth">9.8</td>
+                    <td class="fourth">24.0</td>
+                    <td class="fourth">149.6</td>
+                    <td class="fourth">15</td>
+                    <td class="fourth">1</td>
+                    <td class="fourth">Our world</td>
+                </tr>
+                <tr>
+                    <td class="fifth">Mars</td>
+                    <td class="fifth">0.642</td>
+                    <td class="fifth">6,792</td>
+                    <td class="fifth">3933</td>
+                    <td class="fifth">3.7</td>
+                    <td class="fifth">24.7</td>
+                    <td class="fifth">227.9</td>
+                    <td class="fifth">-65</td>
+                    <td class="fifth">2</td>
+                    <td class="fifth">The red planet</td>
+                </tr>
+                <tr>
+                    <td rowspan="4" height="400">Jovian planets</td>
+                    <td rowspan="2" height="200">Gas giants</td>
+                    <td class="sixth">Jupiter</td>
+                    <td class="sixth">1898</td>
+                    <td class="sixth">142,984</td>
+                    <td class="sixth">1326</td>
+                    <td class="sixth">23.1</td>
+                    <td class="sixth">9.9</td>
+                    <td class="sixth">778.6</td>
+                    <td class="sixth">-110</td>
+                    <td class="sixth">67</td>
+                    <td class="sixth">The largest planet</td>
+                </tr>
+                <tr>
+                    <td class="sixth">Saturn</td>
+                    <td class="sixth">568</td>
+                    <td class="sixth">120,536</td>
+                    <td class="sixth">687</td>
+                    <td class="sixth">9.0</td>
+                    <td class="sixth">10.7</td>
+                    <td class="sixth">1433.5</td>
+                    <td class="sixth">-140</td>
+                    <td class="sixth">62</td>
+                    <td class="sixth"></td>
+                </tr>
+                <tr>
+                    <td rowspan="2" height="200">Ice giants</td>
+                    <td class="seventh">Uranus</td>
+                    <td class="seventh">86.8</td>
+                    <td class="seventh">51,118</td>
+                    <td class="seventh">1271</td>
+                    <td class="seventh">8.7</td>
+                    <td class="seventh">17.2</td>
+                    <td class="seventh">2872.5</td>
+                    <td class="seventh">-195</td>
+                    <td class="seventh">27</td>
+                    <td class="seventh"></td>
+                </tr>
+                <tr>
+                    <td class="eighth">Neptune</td>
+                    <td class="eighth">102</td>
+                    <td class="eighth">49,528</td>
+                    <td class="eighth">1638</td>
+                    <td class="eighth">11.0</td>
+                    <td class="eighth">16.1</td>
+                    <td class="eighth">4495.1</td>
+                    <td class="eighth">-200</td>
+                    <td class="eighth">14</td>
+                    <td class="eighth"></td>
+                </tr>
+                <tr>
+                    <td colspan="2">Dwarf planets</td>
+                    <td class="ninth">Pluto</td>
+                    <td class="ninth">0.0146</td>
+                    <td class="ninth">2370</td>
+                    <td class="ninth">2095</td>
+                    <td class="ninth">0.7</td> 
+                    <td class="ninth">153.3</td>
+                    <td class="ninth">5906.4</td>
+                    <td class="ninth">-225</td>
+                    <td class="ninth">5</td>
+                    <td class="ninth">Declassified as a planet in 2006,but this remains controversial</td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>
